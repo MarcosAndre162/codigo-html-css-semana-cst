@@ -1,0 +1,608 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    width: 1440px;
+    height: 46px;
+    background-color: #000000;
+}
+
+.logo {
+    width: 146px;
+    height: 29px;
+    position: absolute;
+    top: 8px;
+    left: 120px;
+    border-radius: 6px;
+}
+
+.menu-option {
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.06px;
+    text-align: center;
+    color: #CECECE;
+}
+
+#popular {
+    width: 67px;
+    height: 15px;
+    top: 15px;
+    left: 314px;
+}
+
+#top-rated {
+    width: 123px;
+    height: 15px;
+    top: 15px;
+    left: 415px;
+}
+
+#tv {
+    width: 35px;
+    height: 15px;
+    top: 15px;
+    left: 572px;
+}
+
+.background-image {
+    width: 1440px;
+    height: 750px;
+    position: absolute;
+    top: 46px;
+    background-image: url('assets/images/image51.png');
+    opacity: 0.7;
+}
+
+.cartaz {
+    width: 436px;
+    height: 655px;
+    position: absolute;
+    top: 100px;
+    left: 122px;
+}
+
+.titulo {
+    width: 344px;
+    height: 53px;
+    position: absolute;
+    top: 100px;
+    left: 578px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 52.5px;
+    text-align: center;
+    color: #000000;
+}
+
+.subtitulo {
+    width: 115px;
+    height: 26px;
+    position: absolute;
+    top: 116px;
+    left: 942px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+}
+
+.classificacao {
+    width: 29px;
+    height: 24px;
+    position: absolute;
+    top: 153px;
+    left: 585px;
+    border: 0.2px solid #000000;
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.crime {
+    width: 49px;
+    height: 16px;
+    position: absolute;
+    top: 152px;
+    left: 622px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+}
+
+.drama {
+    width: 58px;
+    height: 15px;
+    position: absolute;
+    top: 152px;
+    left: 670px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+}
+
+.texto {
+    width: 742px;
+    height: 151px;
+    position: absolute;
+    top: 229px;
+    left: 578px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.idioma-original {
+    width: 204px;
+    height: 26px;
+    position: absolute;
+    top: 445px;
+    left: 578px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.idioma-original span {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.avaliacao-usuarios {
+    width: 193px;
+    height: 26px;
+    position: absolute;
+    top: 495px;
+    left: 578px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.barra-avaliacao {
+    width: 278px;
+    height: 9px;
+    position: absolute;
+    top: 532px;
+    left: 578px;
+}
+
+.barra-cinza {
+    width: 278px;
+    height: 9px;
+    background-color: #C4C4C4;
+    position: absolute;
+    top: 2;
+    left: 0;
+}
+
+.barra-verde {
+    width: 245px;
+    height: 9px;
+    background-color: #21D07A;
+    position: absolute;
+    top: 2;
+    left: 0;
+}
+
+.porcentagem {
+    width: 65px;
+    height: 32px;
+    position: absolute;
+    top: -12px;
+    left: 320px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+}
+
+.palavra-chave {
+    width: 130px;
+    height: 21px;
+    position: absolute;
+    top: 588px;
+    left: 578px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.onde-assistir {
+    width: 128px;
+    height: 26px;
+    position: absolute;
+    top: 674px;
+    left: 581px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.netflix {
+    width: 91px;
+    height: 24px;
+    position:absolute;
+    top: 724px;
+    left: 581px;
+}
+
+.antena3{
+    width: 91px;
+    height: 24px;
+    position: relative;
+    top: 680px;
+    left: 699px;
+}
+
+.imagens {
+    width: 114px;
+    height: 30px;
+    position: absolute;
+    top: 865px;
+    left: 663px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+  
+.imagem1 {
+    width: 364px;
+    height: 205px;
+    position: absolute;
+    top: 930px;
+    left: 122px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.imagem2 {
+    width: 364px;
+    height: 204.88px;
+    position: absolute;
+    top: 930px;
+    left: 538px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.imagem3 {
+    width: 364px;
+    height: 204.88px;
+    position: absolute;
+    top: 930px;
+    left: 956px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.imagem4 {
+    width: 364px;
+    height: 204.88px;
+    position: absolute;
+    top: 1170px;
+    left: 122px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.imagem5 {
+    width: 364px;
+    height: 204.88px;
+    position: absolute;
+    top: 1170px;
+    left: 538px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.imagem6 {
+    width: 364px;
+    height: 204.88px;
+    position: absolute;
+    top: 1170px;
+    left: 954px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.elenco {
+    width: 87px;
+    height: 30px;
+    position: absolute;
+    top: 1466px;
+    left: 676px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+  .image01 {
+    width: 138px;
+    height: 175px;
+    position: absolute;
+    top: 1539px;
+    left: 119px;
+  }
+  
+  .titulo-foto01 {
+    width: 101px;
+    height: 30px;
+    position: absolute;
+    top: 1722px;
+    left: 138px;
+    font-family: 'Quicksand'sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+  }
+  
+  .subtitulo-foto01 {
+    width: 34px;
+    height: 30px;
+    position: absolute;
+    top: 1742px;
+    left: 171px;
+    gap: 0px;
+    opacity: 0px;
+  }
+
+  .image02 {
+    width: 138px;
+    height: 175px;
+    position: absolute;
+    top: 1539px;
+    left: 301px;
+  }
+  
+  .titulo-foto02 {
+    width: 86px;
+    height: 30px;
+    position: absolute;
+    top: 1722px;
+    left: 327px; 
+    font-family: 'Quicksand' sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+  }
+  
+  .subtitulo-foto02 {
+    width: 70px;
+    height: 30px;
+    position: absolute;
+    top: 1742px;
+    left: 335px;
+    font-family: 'Quicksand' sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+  }
+
+  .image03 {
+    width: 138px;
+    height: 175px;
+    top: 1539px;
+    position: absolute;
+    left: 496px;
+    gap: 0px;
+    border-radius: 5px 0px 0px 0px;
+    opacity: 0px;  
+  }
+  
+  .titulo-foto03 {
+    width: 72px;
+    height: 30px;
+    position: absolute;
+    top: 1722px;
+    left: 529px;
+    font-family: 'Quicksand' sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center; 
+  }
+  
+  .subtitulo-foto03 {
+    width: 43px;
+    height: 30px;
+    position: absolute;
+    top: 1742px;
+    left: 544px;
+    font-family: 'Quicksand' sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+  }
+
+  .image04 {
+    width: 138px;
+    height: 175px;
+    top: 1539px;
+    position: absolute;
+    left: 684px;
+    gap: 0px;
+    border-radius: 5px 0px 0px 0px;
+    opacity: 0px; 
+  }
+
+  .titulo-foto04 {
+    width: 87px;
+    height: 30px;
+    position: absolute;
+    top: 1722px;
+    left: 710px;
+    font-family: 'Quicksand' sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center; 
+  }
+
+  .subtitulo-foto04 {
+    width: 42px;
+    height: 30px;
+    position: absolute;
+    top: 1742px;
+    left: 732px;
+    font-family: 'Quicksand' sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+  }
+
+  .image05 {
+    width: 138px;
+    height: 175px;
+    top: 1539px;
+    position: absolute;
+    left: 866px;
+    gap: 0px;
+    border-radius: 5px 0px 0px 0px;
+    opacity: 0px;
+  }
+
+  .titulo-foto05 {
+    width: 94px;
+    height: 30px;
+    position: absolute;
+    top: 1722px;
+    left: 887px;
+    font-family: 'Quicksand' sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center; 
+  }
+
+  .subtitulo-foto05 {
+    width: 21px;
+    height: 30px;
+    position: absolute;
+    top: 1742px;
+    left: 922px;
+    font-family: 'Quicksand' sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+  }
+
+  .image06 {
+    width: 138px;
+    height: 175px;
+    top: 1539px;
+    position: absolute;
+    left: 1048px;
+    gap: 0px;
+    border-radius: 5px 0px 0px 0px;
+    opacity: 0px; 
+  }
+
+  .titulo-foto06 {
+    width: 47px;
+    height: 30px;
+    position: relative;
+    display: inline;
+    top: 1685px;
+    left: 984px;
+    font-family: 'Quicksand' sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+  }
+
+  .subtitulo-foto06 {
+    width: 96px;
+    height: 30px;
+    position: relative;
+    top: 1662px;
+    left: 1069px;
+    font-family: 'Quicksand' sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+  }
+
+  .image07 {
+    position: relative;
+    width: 138px;
+    height: 175px;
+    top: 1399px;
+    left: 1236px;
+    gap: 0px;
+    border-radius: 5px 0px 0px 0px;
+    opacity: 0px;
+  }
+
+  .ofuscacao {
+    content: '';
+    position: absolute;
+    top: 1519px;
+    left: 1289px;
+    width: 86px;
+    height: 253px;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+    z-index: 1;
+}
+
+  .titulo-foto07 {
+    width: 87px;
+    height: 30px;
+    position: relative;
+    top: 1398px;
+    left: 1262px;
+    font-family: 'Quicksand' sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+  }
+
+  .subtitulo-foto07 {
+    width: 68px;
+    height: 30px;
+    position: relative;
+    top: 1375px;
+    left: 1271px;
+    font-family: 'Quicksand' sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+  }
+

@@ -1,0 +1,383 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.retangulo {
+    position: absolute;
+}
+@media (max-width: 600px) {
+    .retangulo {
+        flex-direction: column;
+    }
+    
+}
+
+
+.menu {
+    width: 1440px;
+    height: 50px;
+    background-color: #1B4436;
+    top: 0;
+    left: 0;
+}
+@media (max-width: 600px) {
+    .menu {
+        flex-direction: column;
+    }
+    
+}
+
+.logo {
+    width: 64px;
+    height: 64px;
+    top: 107px;
+    left: 688px;
+    gap: 0px;
+    opacity: 0px;
+}
+@media (max-width: 600px) {
+    .logo {
+        flex-direction: center;
+    }
+    
+}
+
+#retangulo-inferior {
+    width: 1440px;
+    height: 399px;
+    background-image: url(Assets/images/image_9.png);
+    background-position: center;
+    top: 50px;
+    left: -3px;
+}
+@media (max-width: 600px) {
+    #retangulo-inferior {
+        flex-direction: column;
+    }
+    
+}
+
+.informacao {
+    display: inline;
+    color: white;
+    font-size: 14px;
+    line-height: 18px;
+    position: relative;
+    padding: 10px;
+    right: 60px;
+    left: 60px;
+}
+
+#inicio {
+    width: 34px;
+    height: 18px;
+    top: 16px;
+    left: 127px;
+}
+
+#produtos {
+    width: 60px;
+    height: 18px;
+    top: 16px;
+    left: 130px;
+}
+
+#quem-somos {
+    width: 87px;
+    height: 18px;
+    top: 16px;
+    left: 130px;
+}
+
+.cabeçalho {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container {
+    position: relative;
+}
+
+.background {
+    position: absolute;
+    width: 523px;
+    height: 83px;
+    top: 70px;
+    left: 1070px;
+    right: -200px;
+    background-color: #225243CC;
+}
+
+.titulo {
+    width: 1440px;
+    color: white;
+    padding: 10px;
+    padding-left: 1200px;
+    padding-top: 80px;
+    margin-top: 12px;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 486px;
+    align-items: center;
+    z-index: 0;
+    width: 387px;
+    height: 390px;
+    border-radius: 20px 0px 0px 0px;
+    border: 1px px 0px 0px;
+}
+
+.card {
+    margin: 4px;
+    padding: 4px;
+    border: 1px solid #50AA5A;
+    border-radius: 20px;
+    position: relative;
+    left: 120px;
+}
+
+.card_title {
+    font-family: Quicksand;
+    text-align: center;
+    padding: 90px 0;
+    background-image: url(Assets/images/uva.png);
+    position: relative;
+    bottom: 25px;
+    opacity: 80%;
+    border-radius: 20px 20px 0 0;
+}
+
+.card_text {
+    line-height: 1.5;
+    padding: 0 8px;
+}
+
+.card_link {
+    text-decoration: none;
+    background-color: #50AA5A;
+    display: block;
+    padding: 6.5px;
+    border-radius: 0 0 20px 20px;
+    position: relative;
+    top: 5px;
+}
+
+.card2 {
+    margin: 4px;
+    padding: 4px;
+    border: 1px solid #50AA5A;
+    border-radius: 20px;
+    position: relative;
+    bottom: 410px;
+    left: 527px;
+}
+
+.card_title2 {
+    font-family: Quicksand;
+    text-align: center;
+    padding: 90px 0;
+    background-image: url(Assets/images/gado.png);
+    position: relative;
+    bottom: 25px;
+    border-radius: 20px 20px 0 0;
+}
+
+.card_text2 {
+    line-height: 1.5;
+    padding: 0 8px;
+}
+
+.card_link2 {
+    text-decoration: none;
+    background-color: #50AA5A;
+    display: block;
+    padding: 6.5px;
+    border-radius: 0 0 20px 20px;
+    position: relative;
+    top: 5px;
+}
+
+.card3 {
+    margin: 4px;
+    padding: 4px;
+    border: 1px solid #50AA5A;
+    border-radius: 20px;
+    position: relative;
+    bottom: 820px;
+    left: 933px;
+}
+
+.card_title3 {
+    font-family: Quicksand;
+    text-align: center;
+    padding: 90px 0;
+    background-image: url(Assets/images/laranja.png);
+    position: relative;
+    bottom: 25px;
+    border-radius: 20px 20px 0 0;
+}
+
+.card_text3 {
+    line-height: 1.5;
+    padding: 0 8px;
+}
+
+.card_link3 {
+    text-decoration: none;
+    background-color: #50AA5A;
+    display: block;
+    padding: 6.5px;
+    border-radius: 0 0 20px 20px;
+    position: relative;
+    top: 5px;
+}
+
+.card4 {
+    margin: 4px;
+    padding: 4px;
+    border: 1px solid #50AA5A;
+    border-radius: 20px;
+    position: relative;
+    bottom: 800px;
+    left: 120px;
+}
+
+.card_title4 {
+    font-family: Quicksand;
+    text-align: center;
+    padding: 90px 0;
+    background-image: url(Assets/images/ovelha.png);
+    position: relative;
+    bottom: 25px;
+    border-radius: 20px 20px 0 0;
+}
+
+.card_text4 {
+    line-height: 1.5;
+    padding: 0 8px;
+}
+
+.card_link4 {
+    text-decoration: none;
+    background-color: #50AA5A;
+    display: block;
+    padding: 6.5px;
+    border-radius: 0 0 20px 20px;
+    position: relative;
+    top: 5px;
+}
+
+.card5 {
+    margin: 4px;
+    padding: 4px;
+    border: 1px solid #50AA5A;
+    border-radius: 20px;
+    position: relative;
+    bottom: 1209px;
+    left: 527px;
+}
+
+.card_title5 {
+    font-family: Quicksand;
+    text-align: center;
+    padding: 90px 0;
+    background-image: url(Assets/images/galinha.png);
+    position: relative;
+    bottom: 25px;
+    border-radius: 20px 20px 0 0;
+}
+
+.card_text5 {
+    line-height: 1.5;
+    padding: 0 8px;
+}
+
+.card_link5 {
+    text-decoration: none;
+    background-color: #50AA5A;
+    display: block;
+    padding: 6.5px;
+    border-radius: 0 0 20px 20px;
+    position: relative;
+    top: 5px;
+}
+
+.card6 {
+    margin: 4px;
+    padding: 4px;
+    border: 1px solid #50AA5A;
+    border-radius: 20px;
+    position: relative;
+    bottom: 1620px;
+    left: 933px;
+}
+
+.card_title6 {
+    font-family: Quicksand;
+    text-align: center;
+    padding: 90px 0;
+    background-image: url(Assets/images/tomate.png);
+    position: relative;
+    bottom: 25px;
+    border-radius: 20px 20px 0 0;
+}
+
+.card_text6 {
+    line-height: 1.5;
+    padding: 0 8px;
+}
+
+.card_link6 {
+    text-decoration: none;
+    background-color: #50AA5A;
+    display: block;
+    padding: 6.5px;
+    border-radius: 0 0 20px 20px;
+    position: relative;
+    top: 5px
+}
+
+.card7 {
+    margin: 4px;
+    padding: 4px;
+    border: 1px solid #50AA5A;
+    border-radius: 20px;
+    position: relative;
+    bottom: 1590px;
+    left: 120px;
+}
+
+.card_title7 {
+     font-family: Quicksand;
+    text-align: center;
+    padding: 90px 0;
+    background-image: url(Assets/images/alface.png);
+    position: relative;
+    bottom: 25px;
+    border-radius: 20px 20px 0 0;
+}
+
+.card_text7 {
+    line-height: 1.5;
+    padding: 0 8px;
+}
+
+.card_link7 {
+    text-decoration: none;
+    background-color: #50AA5A;
+    display: block;
+   
+
+    text-decoration: none;
+    background-color: #50AA5A;
+    display: block;
+    padding: 6
+}

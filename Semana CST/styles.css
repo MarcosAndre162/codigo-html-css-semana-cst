@@ -1,0 +1,252 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E5E5E5B2;
+    color: #0000004f;
+    padding: 10px 20px;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.menu ul li {
+    margin-right: 25px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.menu a:hover {
+    background-color: #ccc;
+}
+
+.menu button {
+    background-color: #E74C3C;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.menu-button {
+    display: none;
+    background-color: #ddd;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.retangulo {
+    width: 100%;
+    height: 400px;
+    background-image: url(assets/images/fundo_cabecalho.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.cabeçalho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 100%;
+}
+
+.retangulo .titulo1 {
+    background-color: rgba(255, 210, 0, 0.698);
+    width: 100%;
+    max-width: 1439px;
+    height: 157px;
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 56.25px;
+    text-align: center;
+    color: #000000;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.retangulo h2 {
+    background-color: rgba(255, 210, 0, 0.698);
+    width: 100%;
+    max-width: 482px;
+    height: 138px;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-customizado {
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    top: 513px;
+    left: 25px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 17px;
+    font-weight: 100;
+    line-height: 30px;
+    text-align: left;
+}
+
+.programacao {
+    padding: 20px;
+    margin-top: 200px;
+}
+
+.programacao h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.dia {
+    margin-bottom: 30px;
+}
+
+.evento {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.evento img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.evento-info {
+    flex: 1;
+}
+
+.evento p {
+    margin: 5px 0;
+    margin-right: 80px;
+}
+
+.localizacao {
+    background-color: #fff;
+    padding: 20px;
+    text-align: left;
+}
+
+.localizacao h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.mapa img {
+    display: block;
+    width: 100%;
+    max-width: 1436px;
+    height: auto;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #2D3748CC;
+    color: #FBFCFF;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rodape {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.rodape p {
+    margin-right: 10px;
+}
+
+.logos {
+    display: flex;
+    align-items: center;
+}
+
+.logos img {
+    width: 120px;
+    margin-left: 10px;
+}
+
+.mapa {
+    width: 100%;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .menu-button {
+        display: block;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        display: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .menu ul.active {
+        display: flex;
+    }
+
+    .menu li {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .rodape {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logos img {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+}

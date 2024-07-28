@@ -1,0 +1,149 @@
+.menu {
+    width: 1440px;
+    height: 120px;
+    top: -1px;
+    background-color: #F1F1F1;
+    box-shadow: 0 5px 15px 0 rgba(37, 50, 55, 0.15);
+}
+
+.logo {
+    width: 160px;
+    height: 66.34px;
+    position: absolute;
+    top: 27px;
+    left: 120px;
+}
+
+.opções {
+    position: absolute;
+    top: 51px;
+    right: 120px;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 14px;
+    line-height: 17.07px;
+    text-decoration: none;
+    margin-right: 20px;
+    color: #000;
+}
+
+#inicio {
+    width: 38px;
+    height: 17px;
+    top: 51px;
+    left: 1110px;
+}
+
+#contato {
+    width: 57px;
+    height: 17px;
+    top: 51px;
+    left: 1248px;
+}
+
+.imagem {
+    position: absolute;
+    top: 190px;
+    left: 120px;
+}
+
+.primeira-imagem {
+    width: 1198px;
+    height: 307px;
+}
+
+.titulo {
+    position: absolute;
+    top: 513px;
+    left: 120px;
+    font-family: 'Josefin Sans',sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 22px;
+    width: 585px;
+    height: 22px;
+}
+
+.titulo h1 {
+    margin: 0;
+    padding: 5px;
+}
+
+.subtitulo {
+    position: absolute;
+    top: 560px;
+    left: 120px;
+    width: 997px;
+    height: 34px;
+}
+
+.subtitulo p {
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17.07px;
+    color: rgba(51, 51, 51, 0.7);
+    margin: 0;
+}
+.carrossel {
+    position: relative;
+    top: 616px;
+    width: 1589px;
+    height: 5px;
+}
+
+.retangulo {
+    position: absolute;
+    width: 263px;
+    height: 5px;
+    border-radius: 10px;
+    background-color: #C4C4C4;
+}
+
+.retangulo:first-child {
+    left: 0;
+}
+
+.retangulo:not(:first-child) {
+    top: 0;
+    left: calc(100% /4);
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0;
+    padding-top: 100px;
+}
+    .card {
+    position: absolute;
+    width: 387px;
+    height: 244px;
+    top: 693px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #FFFFFF;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card h2 {
+    margin: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card p {
+    margin: 0 20px 10px 20px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.card p:last-child {
+    margin-bottom: 20px;
+}

@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.menu {
+    text-align: center;
+    background-color: #E5E5E5;
+    color: #0000004f;
+    padding: 1px;
+    height: 46px;
+}
+
+.menu > ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.menu > ul > li {
+    list-style: none;
+    display: inline;
+    margin-right: 25px;
+}
+
+.inscreva-se {
+    margin-left: auto;
+}
+
+.inscreva-se button {
+    background-color: #E74C3C;
+    color: #fff;
+    border: none;
+    border-radius: 5px; 
+    width: 126px;
+    height: 
+}
