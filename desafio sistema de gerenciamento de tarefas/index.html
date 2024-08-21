@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador de tarefas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Gerenciador de tarefas</h1>
+
+        <form id="formulário_de_preenchimento">
+            <label for="tarefa">Tarefa:</label>
+            <input type="text" id="tarefa" required>
+            <label for="data_de_conclusao">Data de conclusão:</label>
+            <input type="date" id="data_de_conclusao" required>
+            <button type="submit">Adicionar tarefas</button>
+        </form>
+
+        <p id="message" class="hidden">Tarefa adicionada com sucesso!</p>
+
+        <h2>Lista de tarefas (<span id="contagem_de_tarefas">0</span>)</h2>
+
+        <table id="tabela_de_tarefas">
+            <thead>
+                <tr>
+                    <th>Tarefa</th>
+                    <th>Data de Conclusão</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+               
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
